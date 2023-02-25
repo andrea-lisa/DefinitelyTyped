@@ -30,6 +30,7 @@ export type Scope =
     | 'user:write'
     | 'viewables:read'
     | 'data:read'
+    | `data:read:${string}`
     | 'data:write'
     | 'data:create'
     | 'data:search'
